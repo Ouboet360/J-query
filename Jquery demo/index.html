@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Excel Search Filter</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+
+  <div class="header-banner">
+    <div class="title">
+      <h2>🔍 Search Excel Spreadsheet</h2>
+    </div>
+    <div class="file-upload">
+      <input type="file" id="excelFile" accept=".xlsx, .xls">
+    </div>
+  </div>
+
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search Excel data...">
+  </div>
+
+  <ul id="itemList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
